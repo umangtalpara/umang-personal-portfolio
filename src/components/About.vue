@@ -6,7 +6,7 @@
     <!-- End .about_image -->
 
     <div class="description">
-      <h3 class="name">Adriano Smith &amp; Photographer</h3>
+      <h3 class="name">Umang Patel<br><small>Web Developer</small></h3>
       <div class="description_inner">
         <div class="left">
           <p>
@@ -23,28 +23,28 @@
         <div class="right">
           <ul>
             <li>
-              <p><span>Birthday:</span>01.07.1990</p>
+              <p><span>Birthday:</span>05.05.2000</p>
             </li>
             <li>
-              <p><span>Age:</span>31</p>
+              <p><span>Age:</span>22</p>
             </li>
             <li>
-              <p><span>Address:</span>Ave 11, New York, USA</p>
+              <p><span>Address:</span>Shivranjani Flyover Ahmedabad, Gujarat 380015</p>
             </li>
             <li>
               <p>
                 <span>Email:</span
-                ><a href="mailto:mail@gmail.com">mail@gmail.com</a>
+                ><a href="mailto:mail@gmail.com">patelumang607@gmail.com</a>
               </p>
             </li>
             <li>
               <p>
                 <span>Phone:</span
-                ><a href="tel:+770221770505">+77 022 177 05 05</a>
+                ><a href="tel:+770221770505">+91 9723455615</a>
               </p>
             </li>
             <li>
-              <p><span>Study:</span>Univercity of Texas</p>
+              <p><span>Study:</span>Parul university</p>
             </li>
             <li>
               <p><span>Freelance:</span>Available</p>

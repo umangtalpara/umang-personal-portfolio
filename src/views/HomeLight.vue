@@ -60,14 +60,7 @@
         </div>
         <div class="copyright">
           <p>
-            &copy; {{ new Date().getFullYear() }} Tokyo VueJS<br />Created by
-            <a
-              href="https://themeforest.net/user/ib-themes"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Ib-Themes
-            </a>
+            &copy; {{ new Date().getFullYear() }} Created by<br /> UMANG PATEL
           </p>
         </div>
         <!-- End copyright -->
