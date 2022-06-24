@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import NotFound from '../views/NotFound.vue'
-import Preview from '../views/Preview.vue'
+// import Preview from '../views/Preview.vue'
 
 
 Vue.use(VueRouter)
@@ -9,31 +9,31 @@ Vue.use(VueRouter)
 
 
 const routes = [
+  // {
+  //   path: "/",
+  //   name: "Preview",
+  //   meta: {
+  //     title: 'Preview'
+  //   },
+  //   component: Preview,
+  // },
+  // {
+  //   path: "/home-light",
+  //   name: "HomeLight",
+  //   meta: {
+  //     title: 'Home Light'
+  //   },
+  //   component: () =>
+  //     import("../views/HomeLight.vue"),
+  // },
   {
     path: "/",
-    name: "Preview",
+    name: "Home",
     meta: {
-      title: 'Preview'
-    },
-    component: Preview,
-  },
-  {
-    path: "/home-light",
-    name: "HomeLight",
-    meta: {
-      title: 'Home Light'
+      title: 'Home'
     },
     component: () =>
-      import("../views/HomeLight.vue"),
-  },
-  {
-    path: "/home-dark",
-    name: "HomeDark",
-    meta: {
-      title: 'Home Dark'
-    },
-    component: () =>
-      import("../views/HomeDark.vue"),
+      import("../views/Home.vue"),
   },
 
   {
