@@ -10,9 +10,7 @@
       <div class="description_inner">
         <div class="left">
           <p>
-            Hello, I am a creative photographer based in New York and happy to
-            travel all over Europe to capture your big day in candid and
-            authentic photos. I will create a lasting memory of the people.
+            Hello, I am a Web Developer based in India and having experience in the development of Web-based Applications using NodeJs Express MongoDB Vue. Computer science engineering professional with expertise in implementing, designing, and analyzing software solutions. Strengths include: development and design, problem solving and being result oriented / client focused.
           </p>
           <div class="tokyo_tm_button">
             <button class="ib-button" @click="showModal">Read More</button>
@@ -44,7 +42,7 @@
               </p>
             </li>
             <li>
-              <p><span>Study:</span>Parul university</p>
+              <p><span>Study:</span>Parul university (B.Tech)</p>
             </li>
             <li>
               <p><span>Freelance:</span>Available</p>

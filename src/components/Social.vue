@@ -16,23 +16,15 @@
         socialList: [
           {
             link: "https://www.facebook.com/",
-            src: require("../assets/img/svg/social/facebook.svg"),
+            src: require("../assets/img/svg/social/gmail3.svg"),
           },
           {
-            link: "https://www.instagram.com/",
-            src: require("../assets/img/svg/social/instagram.svg"),
+            link: "https://www.linkedin.com/in/umang-talpara/",
+            src: require("../assets/img/svg/social/linkedin.svg"),
           },
           {
-            link: "https://twitter.com/",
-            src: require("../assets/img/svg/social/twitter.svg"),
-          },
-          {
-            link: "https://dribbble.com/",
-            src: require("../assets/img/svg/social/dribbble.svg"),
-          },
-          {
-            link: "https://www.tiktok.com/",
-            src: require("../assets/img/svg/social/tik-tok.svg"),
+            link: "https://github.com/umangtalpara",
+            src: require("../assets/img/svg/social/github.svg"),
           },
         ],
       };
