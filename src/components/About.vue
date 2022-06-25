@@ -1,7 +1,8 @@
 <template>
   <div class="tokyo_tm_about">
     <div class="about_image">
-      <img src="../assets/img/slider/1.jpg" alt="about" />
+      <!-- <img src="../assets/img/slider/1.jpg" alt="about" /> -->
+      <img src="../assets/img/slider/Full-Stack.webp" alt="about" />
     </div>
     <!-- End .about_image -->
 
@@ -78,44 +79,50 @@
               </div>
               <!-- End .close -->
               <div class="my_box">
+
                 <div class="left">
-                  <div class="about_title">
-                    <h3>Photography Skills</h3>
+                   <div class="about_title">
+                    <h3>Full-Stack Developer Skills</h3>
                   </div>
                   <!-- End .abut_title -->
                   <div class="tokyo_progress">
                     <div class="progress_inner">
                       <span
-                        ><span class="label">Wedding Photography</span
-                        ><span class="number">95%</span></span
-                      >
+                        ><span class="label">Node.Js, Express.Js</span
+                        > 
+                        <!-- <span class="number">95%</span>-->
+                        </span> 
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width:95%"></div>
+                          <div class="bar_in" style="width:100%"></div>
                         </div>
                       </div>
                     </div>
                     <!-- End progress_inner -->
                     <div class="progress_inner">
                       <span
-                        ><span class="label">Lifestyle Photography</span
-                        ><span class="number">80%</span></span
+                        ><span class="label">Vue.Js, Vuetify</span
+                        >
+                        <!-- <span class="number">80%</span> -->
+                        </span
                       >
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width:80%"></div>
+                          <div class="bar_in" style="width:100%"></div>
                         </div>
                       </div>
                     </div>
                     <!-- End progress_inner -->
                     <div class="progress_inner">
                       <span
-                        ><span class="label">Family Photography</span
-                        ><span class="number">90%</span></span
+                        ><span class="label">MongoDB, Mongoose</span
+                        >
+                        <!-- <span class="number">90%</span> -->
+                        </span
                       >
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width:90%"></div>
+                          <div class="bar_in" style="width:100%"></div>
                         </div>
                       </div>
                     </div>
@@ -125,40 +132,44 @@
                 </div>
                 <!-- End .left -->
                 <div class="right">
-                  <div class="about_title">
-                    <h3>Language Skills</h3>
-                  </div>
+               
                   <div class="tokyo_progress">
                     <div class="progress_inner">
                       <span
-                        ><span class="label">English</span
-                        ><span class="number">95%</span></span
+                        ><span class="label">MySql, Sequelize</span
+                        >
+                        <!-- <span class="number">95%</span> -->
+                        </span
                       >
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width:95%"></div>
+                          <div class="bar_in" style="width:100%"></div>
                         </div>
                       </div>
                     </div>
                     <div class="progress_inner">
                       <span
-                        ><span class="label">Japanese</span
-                        ><span class="number">90%</span></span
+                        ><span class="label">Git, GitLab, GitHub</span
+                        >
+                        <!-- <span class="number">90%</span> -->
+                        </span
                       >
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width:90%"></div>
+                          <div class="bar_in" style="width:100%"></div>
                         </div>
                       </div>
                     </div>
                     <div class="progress_inner">
                       <span
-                        ><span class="label">Arabian</span
-                        ><span class="number">85%</span></span
+                        ><span class="label">Axios, MicroService</span
+                        >
+                        <!-- <span class="number">85%</span> -->
+                        </span
                       >
                       <div class="background">
                         <div class="bar">
-                          <div class="bar_in" style="width:85%"></div>
+                          <div class="bar_in" style="width:100%"></div>
                         </div>
                       </div>
                     </div>
