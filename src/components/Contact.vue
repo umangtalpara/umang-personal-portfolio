@@ -47,7 +47,7 @@
           </ul>
         </div>
       </div>
-    </div> -->
+    </div>-->
 
     <div class="fields">
       <ValidationObserver v-slot="{ handleSubmit }">
@@ -93,7 +93,7 @@
 <script>
 import { ValidationObserver } from "vee-validate";
 import { ValidationProvider } from "vee-validate/dist/vee-validate.full.esm";
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 
 export default {
   components: {
@@ -112,21 +112,21 @@ export default {
   methods: {
     onSubmit() {
       console.log(this.formData);
-      try {
-        emailjs.sendForm('service_hzdnqln', 'YOUR_TEMPLATE_ID', this.$refs.form,
-        'YOUR_USER_ID', {
-          name: this.formData.name,
-          email: this.formData.email,
-          message: this.formData.message
-        })
+      console.log(this.$refs.form);
 
-      } catch(error) {
-          console.log({error})
+      try {
+        emailjs.send("service_hzdnqln", "template_moky2rk", {
+          from_name: this.formData.name,
+          email_id: this.formData.email,
+          message: this.formData.message
+        },"iLU6AfRMh3WBh6fs1");
+      } catch (error) {
+        console.log({ error });
       }
       // Reset form field
-      this.name = ''
-      this.email = ''
-      this.message = ''
+      (this.formData.name = ""),
+        (this.formData.email = ""),
+        (this.formData.message = "");
     }
   }
 };
