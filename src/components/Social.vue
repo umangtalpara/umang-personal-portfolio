@@ -15,13 +15,17 @@
       return {
         socialList: [
           {
-            link: "https://www.facebook.com/",
+            link: "https://mail.google.com/mail/?view=cm&fs=1&to=patelumang607@gmail.com",
             src: require("../assets/img/svg/social/gmail3.svg"),
           },
           {
             link: "https://www.linkedin.com/in/umang-talpara/",
             src: require("../assets/img/svg/social/linkedin.svg"),
           },
+            {
+              link: "whatsapp://send?abid=+919723455615&text=Hello%2C%20World!",
+              src: require("../assets/img/svg/social/whatsapp.svg"),
+            },
           {
             link: "https://github.com/umangtalpara",
             src: require("../assets/img/svg/social/github.svg"),
