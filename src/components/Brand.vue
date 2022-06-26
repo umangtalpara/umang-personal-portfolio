@@ -20,28 +20,28 @@ export default {
     return {
       brandList: [
         {
-          src: require("../assets/img/partners/1.png"),
+          src: require("../assets/img/partners/bootstrap.png"),
         },
         {
-          src: require("../assets/img/partners/2.png"),
+          src: require("../assets/img/partners/git.png"),
         },
         {
-          src: require("../assets/img/partners/3.png"),
+          src: require("../assets/img/partners/mongodb.png"),
         },
         {
-          src: require("../assets/img/partners/4.png"),
+          src: require("../assets/img/partners/mysql.png"),
         },
         {
-          src: require("../assets/img/partners/5.png"),
+          src: require("../assets/img/partners/node-js.png"),
         },
         {
-          src: require("../assets/img/partners/6.png"),
+          src: require("../assets/img/partners/react-logo.png"),
         },
         {
-          src: require("../assets/img/partners/7.png"),
+          src: require("../assets/img/partners/vuejs.png"),
         },
         {
-          src: require("../assets/img/partners/8.png"),
+          src: require("../assets/img/partners/vuetify.png"),
         },
       ],
       hooperSettings: {
@@ -52,13 +52,13 @@ export default {
         playSpeed: 1500,
         breakpoints: {
           1200: {
-            itemsToShow: 4,
+            itemsToShow: 5,
           },
           576: {
-            itemsToShow: 3,
+            itemsToShow: 4,
           },
           280: {
-            itemsToShow: 2,
+            itemsToShow: 3,
           },
         },
       },

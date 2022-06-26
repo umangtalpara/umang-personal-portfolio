@@ -206,7 +206,7 @@
               <!-- End .counter -->
               <div class="partners">
                 <div class="about_title">
-                  <h3>Our Partners</h3>
+                  <h3>Our Framework and technology</h3>
                 </div>
                 <Brand />
               </div>
