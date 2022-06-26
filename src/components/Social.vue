@@ -23,7 +23,7 @@
             src: require("../assets/img/svg/social/linkedin.svg"),
           },
             {
-              link: "whatsapp://send?phone=+919723455615&text=Hello%2C%20World!",
+              link: "whatsapp://send?phone=+919723455615&text=Hello%2C%Umang",
               src: require("../assets/img/svg/social/whatsapp.svg"),
             },
           {
