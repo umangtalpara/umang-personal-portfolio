@@ -9,7 +9,7 @@
         </div>
         <div class="copyright">
           <p>
-            &copy; {{ new Date().getFullYear() }} Tokyo <br />
+            &copy; {{ new Date().getFullYear() }} Umang <br />
             Created by<a
               href="https://themeforest.net/user/ib-themes"
               target="_blank"
@@ -42,7 +42,7 @@
     <footer class="footer-wrapper">
       <div class="copyright">
         <p>
-          © 2021 Tokyo Created by<a
+          © 2021 Umang Created by<a
             href="https://themeforest.net/user/ib-themes"
             target="_blank"
             rel="noreferrer"

@@ -60,7 +60,7 @@ const router = new VueRouter({
 
 router.afterEach((to) => {
   if (to.meta && to.meta.title) {
-    document.title = to.meta.title + ' | Tokyo - Personal Portfolio VuejS template';
+    document.title =  'Umang Patel';
   }
 });
 
