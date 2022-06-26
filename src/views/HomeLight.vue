@@ -42,12 +42,12 @@
             <span class="menu_content">Portfolio</span></a
           >
           <!-- End Portfolio -->
-          <a
+          <!-- <a
             v-on:click="activetab = 4"
             :class="[activetab === 4 ? 'active' : '']"
             ><img class="svg" src="../assets/img/svg/paper.svg" alt="paper" />
             <span class="menu_content">News</span></a
-          >
+          > -->
           <!-- End News -->
           <a
             v-on:click="activetab = 5"
@@ -85,9 +85,9 @@
               <Portfolio />
             </div>
             <!-- End Portfolio tabcontent -->
-            <div v-if="activetab === 4" class="tabcontent">
+            <!-- <div v-if="activetab === 4" class="tabcontent">
               <News />
-            </div>
+            </div> -->
             <!-- End News tabcontent -->
             <div v-if="activetab === 5" class="tabcontent">
               <Contact />
@@ -105,14 +105,14 @@
   import Home from "../components/Home";
   import About from "../components/About";
   import Portfolio from "../components/Portfolio";
-  import News from "../components/News";
+  // import News from "../components/News";
   import Contact from "../components/Contact";
   export default {
     components: {
       Home,
       About,
       Portfolio,
-      News,
+      // News,
       Contact,
     },
     data() {
